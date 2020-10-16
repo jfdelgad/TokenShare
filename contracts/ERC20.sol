@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: MIT
 
-pragma solidity ^0.6.0;
+pragma solidity >= 0.7.0;
 
 import "./IERC20.sol";
 import "./SafeMath.sol";
@@ -25,7 +25,7 @@ contract ERC20 is IERC20 {
      * All three of these values are immutable: they can only be set once during
      * construction.
      */
-    constructor (string memory name, string memory symbol) public {
+    constructor (string memory name, string memory symbol) {
         _name = name;
         _symbol = symbol;
         _decimals = 18;
