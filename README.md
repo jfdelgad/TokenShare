@@ -1,2 +1,2 @@
-# LitiCapital
+# TokenShare
 Repository for liticapital platform
